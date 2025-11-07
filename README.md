@@ -1,9 +1,9 @@
 # TedRec-Multimodal-Sequential-Recommendation
-[![GitHub Stars](https://img.shields.io/github/stars/wajason/TedRec-Multimodal-Sequential-Recommendation?style=for-the-badge&logo=github&color=4C8EDA)](https://github.com/wajason/TedRec-Multimodal-Sequential-Recommendation/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/wajason/TedRec-Multimodal-Sequential-Recommendation?style=for-the-badge&logo=github&color=4C8EDA)](https://github.com/wajason/TedRec-Multimodal-Sequential-Recommendation/network/members)
-[![Issues](https://img.shields.io/github/issues/wajason/TedRec-Multimodal-Sequential-Recommendation?style=for-the-badge&color=4C8EDA)](https://github.com/wajason/TedRec-Multimodal-Sequential-Recommendation/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation?style=for-the-badge&logo=github&color=4C8EDA)](https://github.com/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation?style=for-the-badge&logo=github&color=4C8EDA)](https://github.com/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation/network/members)
+[![Issues](https://img.shields.io/github/issues/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation?style=for-the-badge&color=4C8EDA)](https://github.com/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation/issues)
 [![License](https://img.shields.io/badge/License-MIT-4C8EDA?style=for-the-badge)](./LICENSE)
-[![Run in Colab](https://img.shields.io/badge/Open%20in-Colab-4C8EDA?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/wajason/TedRec-Multimodal-Sequential-Recommendation/blob/main/TedRec.ipynb)
+[![Run in Colab](https://img.shields.io/badge/Open%20in-Colab-4C8EDA?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation/blob/main/TedRec.ipynb)
 
 
 Short description:
