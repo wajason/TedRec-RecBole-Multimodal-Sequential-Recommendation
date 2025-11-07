@@ -12,6 +12,8 @@ A production-ready, reproducible implementation of the TedRec multimodal sequent
 ====================================  
 OVERVIEW
 ------------------------------------   
+<img width="3950" height="1606" alt="image" src="https://github.com/user-attachments/assets/d911d226-2ad1-4dd2-8dd6-02b8b38c56fd" text="資料來源：https://github.com/RUCAIBox/TedRec" />
+
 TedRec implements a multimodal sequential recommendation model on top of RecBole.
 Core ideas:
  - fuse standard item-ID embeddings with text semantic vectors
@@ -65,6 +67,7 @@ LOCAL / SCRIPT-BASED QUICKSTART
 ====================================  
 PROJECT STRUCTURE (recommended)
 ------------------------------------   
+```bash
 TedRec-Multimodal-Sequential-Recommendation/  
 │  
 ├── TedRec.ipynb                # Colab-ready notebook (highest priority for demos)  
@@ -78,6 +81,7 @@ TedRec-Multimodal-Sequential-Recommendation/
 ├── assets/                     # visuals: banner, demo images (optional)  
 ├── CITATION.bib                # citation metadata  
 └── README.md                   # this file  
+```
 
 ====================================  
 CONFIGURATION HIGHLIGHTS
