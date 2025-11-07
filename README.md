@@ -12,7 +12,12 @@ A production-ready, reproducible implementation of the TedRec multimodal sequent
 ====================================  
 OVERVIEW
 ------------------------------------   
-<img width="3950" height="1606" alt="image" src="https://github.com/user-attachments/assets/d911d226-2ad1-4dd2-8dd6-02b8b38c56fd" txt="資料來源：https://github.com/RUCAIBox/TedRec" />
+<img src="https://github.com/user-attachments/assets/d911d226-2ad1-4dd2-8dd6-02b8b38c56fd" alt="LLMERS Taxonomy Diagram" width="404" />
+
+**Figure 1: Taxonomic Architecture of LLM Augmented Recommender System (LLMERS)**
+
+<small>Source: [RUCAIBox/TedRec GitHub Project](https://github.com/RUCAIBox/TedRec)</small>
+
 
 TedRec implements a multimodal sequential recommendation model on top of RecBole.
 Core ideas:
