@@ -65,19 +65,19 @@ LOCAL / SCRIPT-BASED QUICKSTART
 ====================================  
 PROJECT STRUCTURE (recommended)
 ------------------------------------   
-TedRec-Multimodal-Sequential-Recommendation/
-│
-├── TedRec.ipynb                # Colab-ready notebook (highest priority for demos)
-├── run_tedrec.py               # script: entrypoint for training & evaluation
-├── models/
-│   └── tedrec.py               # TedRec model implementation (RecBole style)
-├── config/
-│   └── config.yaml             # default hyperparameters + dataset config
-├── data/                       # (auto) MovieLens-1M (downloaded by RecBole)
-├── saved/                      # checkpoints (gitignore)
-├── assets/                     # visuals: banner, demo images (optional)
-├── CITATION.bib                # citation metadata
-└── README.md                   # this file
+TedRec-Multimodal-Sequential-Recommendation/  
+│  
+├── TedRec.ipynb                # Colab-ready notebook (highest priority for demos)  
+├── run_tedrec.py               # script: entrypoint for training & evaluation  
+├── models/  
+│   └── tedrec.py               # TedRec model implementation (RecBole style)  
+├── config/  
+│   └── config.yaml             # default hyperparameters + dataset config  
+├── data/                       # (auto) MovieLens-1M (downloaded by RecBole)  
+├── saved/                      # checkpoints (gitignore)  
+├── assets/                     # visuals: banner, demo images (optional)  
+├── CITATION.bib                # citation metadata  
+└── README.md                   # this file  
 
 ====================================  
 CONFIGURATION HIGHLIGHTS
