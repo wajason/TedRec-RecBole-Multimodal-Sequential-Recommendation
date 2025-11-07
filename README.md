@@ -154,7 +154,7 @@ CITATION (CITATION.bib)
   author = {Jason and Contributors},
   year = {2025},
   howpublished = {GitHub repository},
-  note = {https://github.com/wajason/TedRec-Multimodal-Sequential-Recommendation}
+  note = {https://github.com/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation.git}
 }
 
 ====================================   
