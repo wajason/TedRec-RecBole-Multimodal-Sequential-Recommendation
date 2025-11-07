@@ -28,15 +28,15 @@ QUICKSTART — Run in Google Colab (recommended)
 ------------------------------------   
 1) Open the notebook in Colab:
    Click the "Open in Colab" badge above, or open:
-   https://colab.research.google.com/github/wajason/TedRec-Multimodal-Sequential-Recommendation/blob/main/TedRec.ipynb
+   https://colab.research.google.com/github/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation/blob/main/TedRec.ipynb
 
-2) Runtime settings (Colab menu):
+3) Runtime settings (Colab menu):
    Runtime -> Change runtime type -> Hardware accelerator -> GPU (recommended: T4)
 
-3) Install minimal dependencies (run first notebook cell or run these commands):
+4) Install minimal dependencies (run first notebook cell or run these commands):
    !pip install recbole torch
 
-4) Execute notebook cells sequentially:
+5) Execute notebook cells sequentially:
    - dataset download & preprocessing (RecBole auto)
    - train TedRec (default 3 epochs for quick benchmark)
    - eval & save checkpoint
