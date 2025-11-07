@@ -9,9 +9,9 @@
 Short description:
 A production-ready, reproducible implementation of the TedRec multimodal sequential recommender built on RecBole. Includes MoE-based text compression, Colab-ready notebook, and MovieLens-1M benchmark results.
 
-================================================================================
+================================================================================  
 OVERVIEW
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------  
 TedRec implements a multimodal sequential recommendation model on top of RecBole.
 Core ideas:
  - fuse standard item-ID embeddings with text semantic vectors
@@ -23,9 +23,9 @@ This repo is designed to be:
  - engineer-friendly (Colab-ready notebook, easy entrypoint)
  - shareable (citation snippet included)
 
-================================================================================
+================================================================================  
 QUICKSTART — Run in Google Colab (recommended)
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------  
 1) Open the notebook in Colab:
    Click the "Open in Colab" badge above, or open:
    https://colab.research.google.com/github/wajason/TedRec-Multimodal-Sequential-Recommendation/blob/main/TedRec.ipynb
@@ -44,9 +44,9 @@ QUICKSTART — Run in Google Colab (recommended)
 Notes:
  - The notebook contains the exact commands used to reproduce the logged runs and final metrics.
 
-================================================================================
+================================================================================  
 LOCAL / SCRIPT-BASED QUICKSTART
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------  
 (Useful for local machine or server)
 
 1) Create env (conda recommended)
@@ -62,9 +62,9 @@ LOCAL / SCRIPT-BASED QUICKSTART
 4) Checkpoints saved to:
    saved/TedRec-<DATE>.pth
 
-================================================================================
+================================================================================  
 PROJECT STRUCTURE (recommended)
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------  
 TedRec-Multimodal-Sequential-Recommendation/
 │
 ├── TedRec.ipynb                # Colab-ready notebook (highest priority for demos)
@@ -79,17 +79,17 @@ TedRec-Multimodal-Sequential-Recommendation/
 ├── CITATION.bib                # citation metadata
 └── README.md                   # this file
 
-================================================================================
+================================================================================  
 CONFIGURATION HIGHLIGHTS
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------  
 - Default dataset: MovieLens-1M (standard RecBole split)
 - Default epochs: 3 (fast reproducible baseline)
 - Feature fusion: item_id_embedding + moe_compressed_text_vector
 - Checkpoints & logs: saved/* and logs/*
 
-================================================================================
+================================================================================  
 EXPERIMENT LOG (exact run from Colab / local notebook)
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------  
 Epoch 0:
   time (train): 496.38s, train loss: 3029.5624
   validating: valid_score: 0.093800
@@ -146,9 +146,9 @@ UserID, Top1, Top2, Top3, Top4, Top5
 
 (Notebook includes a cell that prints Top-K for a few sample users; export as PNG for README visuals.)
 
-================================================================================
+================================================================================  
 CITATION (CITATION.bib)
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------  
 @misc{TedRec2025,
   title = {TedRec: Multimodal Sequential Recommendation with MoE compression},
   author = {Jason and Contributors},
@@ -157,9 +157,9 @@ CITATION (CITATION.bib)
   note = {https://github.com/wajason/TedRec-Multimodal-Sequential-Recommendation}
 }
 
-================================================================================
+================================================================================  
 GOOD PRACTICES & TIPS
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------  
 - If you need larger-scale or longer training, increase epochs in config/config.yaml.
 - For reproducibility: set random seed in config and save the full config alongside checkpoints.
 - To make Colab runs even faster: use GPU runtime and pin compatible torch build for Colab.
