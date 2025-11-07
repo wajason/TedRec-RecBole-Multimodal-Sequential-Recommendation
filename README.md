@@ -12,7 +12,7 @@ A production-ready, reproducible implementation of the TedRec multimodal sequent
 ====================================  
 OVERVIEW
 ------------------------------------   
-<img src="https://github.com/user-attachments/assets/d911d226-2ad1-4dd2-8dd6-02b8b38c56fd" alt="LLMERS Taxonomy Diagram" width="404" />
+<img src="https://github.com/user-attachments/assets/d911d226-2ad1-4dd2-8dd6-02b8b38c56fd" alt="LLMERS Taxonomy Diagram" width="808" />
 
 **Figure 1: Taxonomic Architecture of LLM Augmented Recommender System (LLMERS)**
 
