@@ -9,7 +9,7 @@
 Short description:
 A production-ready, reproducible implementation of the TedRec multimodal sequential recommender built on RecBole. Includes MoE-based text compression, Colab-ready notebook, and MovieLens-1M benchmark results.
 
-====================================  
+
 OVERVIEW
 ------------------------------------   
 <img src="https://github.com/user-attachments/assets/d911d226-2ad1-4dd2-8dd6-02b8b38c56fd" alt="LLMERS Taxonomy Diagram" width="808" />
@@ -30,7 +30,7 @@ This repo is designed to be:
  - engineer-friendly (Colab-ready notebook, easy entrypoint)
  - shareable (citation snippet included)
 
-====================================  
+
 QUICKSTART — Run in Google Colab (recommended)
 ------------------------------------   
 1) Open the notebook in Colab:
@@ -51,7 +51,7 @@ QUICKSTART — Run in Google Colab (recommended)
 Notes:
  - The notebook contains the exact commands used to reproduce the logged runs and final metrics.
 
-====================================   
+ 
 LOCAL / SCRIPT-BASED QUICKSTART
 ------------------------------------   
 (Useful for local machine or server)
@@ -69,7 +69,7 @@ LOCAL / SCRIPT-BASED QUICKSTART
 4) Checkpoints saved to:
    saved/TedRec-<DATE>.pth
 
-====================================  
+
 PROJECT STRUCTURE (recommended)
 ------------------------------------   
 ```bash
@@ -88,7 +88,7 @@ TedRec-Multimodal-Sequential-Recommendation/
 └── README.md                   # this file  
 ```
 
-====================================  
+
 CONFIGURATION HIGHLIGHTS
 ------------------------------------   
 - Default dataset: MovieLens-1M (standard RecBole split)
@@ -96,7 +96,7 @@ CONFIGURATION HIGHLIGHTS
 - Feature fusion: item_id_embedding + moe_compressed_text_vector
 - Checkpoints & logs: saved/* and logs/*
 
-====================================  
+ 
 EXPERIMENT LOG (exact run from Colab / local notebook)
 ------------------------------------   
 Epoch 0:
@@ -143,7 +143,7 @@ Test result (after loading best checkpoint):
 
 (Short summary: model converged in 3 epochs; NDCG@10=0.1254 on test set.)
 
-====================================  
+
 TOP-K DEMO (example presentation for README)
 ------------------------------------   
 You can generate a CSV or table with Top-K results and embed into README or assets.
@@ -155,7 +155,7 @@ UserID, Top1, Top2, Top3, Top4, Top5
 
 (Notebook includes a cell that prints Top-K for a few sample users; export as PNG for README visuals.)
 
-====================================   
+
 CITATION (CITATION.bib)
 ------------------------------------   
 @misc{TedRec2025,
@@ -166,7 +166,7 @@ CITATION (CITATION.bib)
   note = {https://github.com/wajason/TedRec-RecBole-Multimodal-Sequential-Recommendation.git}
 }
 
-====================================   
+ 
 GOOD PRACTICES & TIPS
 ------------------------------------   
 - If you need larger-scale or longer training, increase epochs in config/config.yaml.
